@@ -34,12 +34,11 @@ input 을 표시하려면, [`<input>` 브라우저 내장 컴포넌트](https://
 
 <Canary>
 
-React's extensions to the `formAction` prop are currently only available in React's Canary and experimental channels. In stable releases of React `formAction` works only as a [built-in browser HTML component](https://react.dev/reference/react-dom/components#all-html-components). Learn more about [React's release channels here](/community/versioning-policy#all-release-channels).
-</Canary>
+`formAction` prop에 대한 React의 확장 기능은 현재 React의 Canary 채널 및 실험 채널에서만 사용할 수 있습니다. React의 안정적인 릴리즈에서 `formAction`은 [내장 브라우저 HTML 컴포넌트](https://react.dev/reference/react-dom/components#all-html-components)로만 작동합니다. 자세한 내용은 [React 릴리즈 채널](/community/versioning-policy#all-release-channels)에서 확인할 수 있습니다.
 
-[`formAction`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#formaction): A string or function. Overrides the parent `<form action>` for `type="submit"` and `type="image"`. When a URL is passed to `action` the form will behave like a standard HTML form. When a function is passed to `formAction` the function will handle the form submission. See [`<form action>`](/reference/react-dom/components/form#props).
+[`formAction`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#formaction): 문자열이나 함수 타입. `type="submit"` 및 `type="image"`에 대해 부모 `<form action>`을 무시합니다. URL이 `action`에 전달되면 폼은 표준 HTML 폼처럼 동작합니다. 함수가 `formAction`에 전달되면 해당 함수가 폼 제출을 처리합니다. [`<form action>`](/reference/react-dom/components/form#props)을 참조하세요.
 
-You can [make an input controlled](#controlling-an-input-with-a-state-variable) by passing one of these props:
+다음 props 중 하나를 전달하여 [input을 제어할 수 있습니다.](#controlling-an-input-with-a-state-variable)
 
 * [`checked`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement#checked): 불리언 타입. 체크박스 input 또는 라디오 버튼에서 선택 여부를 제어합니다.
 * [`value`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement#value): 문자열 타입. 텍스트 input의 경우 텍스트를 제어합니다. (라디오 버튼의 경우 폼 데이터를 지정합니다.)
