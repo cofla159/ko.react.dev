@@ -5,7 +5,7 @@ canary: true
 
 <Canary>
 
-`useOptimistic` Hook은 현재 React의 Canary 및 실험적인 채널에서만 사용 가능합니다. [React의 릴리스 채널에 대한 정보](/community/versioning-policy#all-release-channels).
+`useOptimistic` Hook은 현재 React의 Canary 및 실험적인 채널에서만 사용 가능합니다. 자세한 내용은 [React의 릴리스 채널](/community/versioning-policy#all-release-channels)에서 확인하세요.
 
 </Canary>
 
